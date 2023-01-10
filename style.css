@@ -4,18 +4,18 @@ html, body {
 }
 
 header {
-    background-color: bisque;
+    background-color: rgb(243, 228, 211);
     position: fixed;
     width: 100%;
     z-index: 1;
 }
 
 nav {
-    margin: 0;
-    padding: 10px 0;
+    margin: 0px;
+    padding: 6.8px 0;
 }
 
-nav li {
+nav li  {
     color: black;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
@@ -24,6 +24,16 @@ nav li {
     width: 120px;
     
 }
+
+.nav-button {
+    color: black;
+    text-decoration:none;
+}
+
+.nav-button:hover  {
+    text-decoration: underline;
+}
+
 
 main {
    text-align: center;
@@ -39,8 +49,8 @@ main h1 {
     margin-top: 0;
     padding-top: 80px;
     margin-bottom: 50px;
-    
 }
+
 main h2 { 
     color: rgb(2, 2, 114);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -51,7 +61,6 @@ main h2 {
     padding-right: 40px;
     margin-bottom: 80px;
     text-align: right;
-    
 }
 
 footer {
@@ -66,7 +75,6 @@ footer p {
     text-transform: uppercase;
     font-size: 15px;
     text-align: center;
-
 }
 
 .container {
@@ -78,10 +86,9 @@ footer p {
 
 .jumbotron {
     height: 800px;
-    background-image: url(book-pages.jpg);
+    background-image: url(book-pages2.jpg);
     background-repeat: no-repeat;
     background-position: center;
-   
 }
 
 .btn-main {
@@ -97,11 +104,21 @@ footer p {
     border-radius: 50px;
 }
 
+.btn-main:hover {
+    background-color: transparent;
+    color: rgb(45, 6, 184); 
+}
+
+.btn-down:hover  {
+    background-color: #3245b1; 
+    color: white;
+    border: white; 
+}   
+
+
 .supporting {
     padding-top: 100px;
     padding-bottom: 50px;
-    
-    
 }
 
 .supporting .col {
@@ -114,8 +131,6 @@ footer p {
 
 .supporting img {
     height: 50px;
-    
-
 }
 
 .supporting h2 {
@@ -131,6 +146,7 @@ footer p {
     padding: 10 20px;
     margin-bottom: 50px;
 }
+
 .supporting a {
     background-color: white;
     color: rgb(2, 2, 114);
@@ -156,3 +172,8 @@ footer p {
 .container {
     position: relative;
 }
+
+.nav-button {
+
+}
+   
