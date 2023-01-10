@@ -4,7 +4,7 @@ html, body {
 }
 
 header {
-    background-color: rgb(243, 228, 211);
+    background-color: rgba(243, 228, 211, 0.5);
     position: fixed;
     width: 100%;
     z-index: 1;
